@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6867C99149AFE99000AA52D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6867C98149AFE99000AA52D /* UIKit.framework */; };
+		B6867C9B149AFE99000AA52D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6867C9A149AFE99000AA52D /* Foundation.framework */; };
+		B6867C9D149AFE99000AA52D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6867C9C149AFE99000AA52D /* CoreGraphics.framework */; };
+		B6867CA3149AFE99000AA52D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6867CA1149AFE99000AA52D /* InfoPlist.strings */; };
+		B6867CA5149AFE99000AA52D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6867CA4149AFE99000AA52D /* main.m */; };
+		B6867CA9149AFE99000AA52D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6867CA8149AFE99000AA52D /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6867C94149AFE99000AA52D /* AtlantasBravs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtlantasBravs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6867C98149AFE99000AA52D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B6867C9A149AFE99000AA52D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6867C9C149AFE99000AA52D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B6867CA0149AFE99000AA52D /* AtlantasBravs-Info.plist */ = {isa = PBXFileReference; path = "AtlantasBravs-Info.plist"; sourceTree = "<group>"; };
+		B6867CA2149AFE99000AA52D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6867CA4149AFE99000AA52D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6867CA6149AFE99000AA52D /* AtlantasBravs-Prefix.pch */ = {isa = PBXFileReference; path = "AtlantasBravs-Prefix.pch"; sourceTree = "<group>"; };
+		B6867CA7149AFE99000AA52D /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6867CA8149AFE99000AA52D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6867C91149AFE99000AA52D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6867C99149AFE99000AA52D /* UIKit.framework in Frameworks */,
+				B6867C9B149AFE99000AA52D /* Foundation.framework in Frameworks */,
+				B6867C9D149AFE99000AA52D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6867C89149AFE99000AA52D = {
+			isa = PBXGroup;
+			children = (
+				B6867C9E149AFE99000AA52D /* AtlantasBravs */,
+				B6867C97149AFE99000AA52D /* Frameworks */,
+				B6867C95149AFE99000AA52D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6867C95149AFE99000AA52D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6867C94149AFE99000AA52D /* AtlantasBravs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6867C97149AFE99000AA52D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6867C98149AFE99000AA52D /* UIKit.framework */,
+				B6867C9A149AFE99000AA52D /* Foundation.framework */,
+				B6867C9C149AFE99000AA52D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6867C9E149AFE99000AA52D /* AtlantasBravs */ = {
+			isa = PBXGroup;
+			children = (
+				B6867CA7149AFE99000AA52D /* AppDelegate.h */,
+				B6867CA8149AFE99000AA52D /* AppDelegate.m */,
+				B6867C9F149AFE99000AA52D /* Supporting Files */,
+			);
+			path = AtlantasBravs;
+			sourceTree = "<group>";
+		};
+		B6867C9F149AFE99000AA52D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6867CA0149AFE99000AA52D /* AtlantasBravs-Info.plist */,
+				B6867CA1149AFE99000AA52D /* InfoPlist.strings */,
+				B6867CA4149AFE99000AA52D /* main.m */,
+				B6867CA6149AFE99000AA52D /* AtlantasBravs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6867C93149AFE99000AA52D /* AtlantasBravs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6867CAC149AFE99000AA52D /* Build configuration list for PBXNativeTarget "AtlantasBravs" */;
+			buildPhases = (
+				B6867C90149AFE99000AA52D /* Sources */,
+				B6867C91149AFE99000AA52D /* Frameworks */,
+				B6867C92149AFE99000AA52D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AtlantasBravs;
+			productName = AtlantasBravs;
+			productReference = B6867C94149AFE99000AA52D /* AtlantasBravs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6867C8B149AFE99000AA52D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B6867C8E149AFE99000AA52D /* Build configuration list for PBXProject "AtlantasBravs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B6867C89149AFE99000AA52D;
+			productRefGroup = B6867C95149AFE99000AA52D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6867C93149AFE99000AA52D /* AtlantasBravs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6867C92149AFE99000AA52D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6867CA3149AFE99000AA52D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6867C90149AFE99000AA52D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6867CA5149AFE99000AA52D /* main.m in Sources */,
+				B6867CA9149AFE99000AA52D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6867CA1149AFE99000AA52D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6867CA2149AFE99000AA52D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6867CAA149AFE99000AA52D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6867CAB149AFE99000AA52D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6867CAD149AFE99000AA52D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AtlantasBravs/AtlantasBravs-Prefix.pch";
+				INFOPLIST_FILE = "AtlantasBravs/AtlantasBravs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B6867CAE149AFE99000AA52D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AtlantasBravs/AtlantasBravs-Prefix.pch";
+				INFOPLIST_FILE = "AtlantasBravs/AtlantasBravs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6867C8E149AFE99000AA52D /* Build configuration list for PBXProject "AtlantasBravs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6867CAA149AFE99000AA52D /* Debug */,
+				B6867CAB149AFE99000AA52D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6867CAC149AFE99000AA52D /* Build configuration list for PBXNativeTarget "AtlantasBravs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6867CAD149AFE99000AA52D /* Debug */,
+				B6867CAE149AFE99000AA52D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6867C8B149AFE99000AA52D /* Project object */;
+}
